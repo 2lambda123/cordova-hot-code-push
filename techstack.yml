@@ -1,0 +1,99 @@
+repo_name: 2lambda123/cordova-hot-code-push
+report_id: 8f9df6031e20bac24ce1be00a87dd0c9
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T06:52:26+00:00'
+requested_by: 2lambda123
+provider: github
+branch: master
+detected_tools_count: 7
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/2lambda123/cordova-hot-code-push
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/cordova-hot-code-push
+  detection_source: Repo Metadata
+- name: Objective-C
+  description: The primary programming language you use when writing software for
+    OS X and iOS
+  website_url: https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1008/xcode.png
+  detection_source_url: https://github.com/2lambda123/cordova-hot-code-push
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/cordova-hot-code-push
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/2lambda123/cordova-hot-code-push/blob/master/src/android/chcp.gradle
+  detection_source: src/android/chcp.gradle
+  last_updated_by: Nikolay Demyankov
+  last_updated_on: 2015-07-24 12:17:08.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/2lambda123/cordova-hot-code-push/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Nikolay Demyankov
+  last_updated_on: 2015-08-04 09:14:47.000000000 Z
+- name: xml2js
+  description: Simple XML to JavaScript object converter
+  package_url: https://www.npmjs.com/xml2js
+  version: '0.4'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16122/default_efe4f0184d007a28e793d89a59e058b742bc9177.png
+  detection_source_url: https://github.com/2lambda123/cordova-hot-code-push/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Nikolay Demyankov
+  last_updated_on: 2016-08-30 08:42:19.000000000 Z
+  vulnerabilities:
+  - name: xml2js is vulnerable to prototype pollution
+    cve_id: CVE-2023-0842
+    cve_url: https://github.com/advisories/GHSA-776f-qx25-q3cc
+    detected_date: Apr 8
+    severity: moderate
+    first_patched: 0.5.0
